@@ -178,7 +178,7 @@ Ropsten Testnet</span>
 </div>
 
 <div>
-<a id="connector" onclick="connectWeb3();" class="btn btn-xs btn-soft-secondary text-nowrap btnConnect" href="https://ropsten.etherscan.io/dapp/0xFFAd92C6cc901d6dbAC65C3c4B761ff78503F2A0#"><i class="fa fa-circle text-success small mr-1"></i> Connected to Web3</a>
+<a id="connector" onclick="connectWeb3();" class="btn btn-xs btn-soft-secondary text-nowrap btnConnect" href="https://meng-x.github.io"><i class="fa fa-circle text-success small mr-1"></i> Connected to Web3</a>
 </div>
 </div>
 </div>
@@ -520,11 +520,18 @@ This website <a href="https://etherscan.io/terms#cookiestatement" target="_blank
      
         var Web3 = require('web3');
 
-        if (typeof ethereum !== 'undefined') {
-            var web3 = new Web3(ethereum);
+        var web3js = window.web3
+        if (typeof web3js !== 'undefined') {
+            var web3 = new Web3(web3js.currentProvider)
         } else {
             web3 = new Web3(new Web3.providers.HttpProvider("https://ropsten.infura.io/v3/80f1c00345214da4bdbc4d02f35fb265"));
         }
+
+        // if (typeof ethereum !== 'undefined') {
+        //     var web3 = new Web3(ethereum);
+        // } else {
+        //     web3 = new Web3(new Web3.providers.HttpProvider("https://ropsten.infura.io/v3/80f1c00345214da4bdbc4d02f35fb265"));
+        // }
         
         var MyContract;
         var myContractInstance;
