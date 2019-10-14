@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 69">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="300" height="69" transform="translate(504 609)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="wave-bottom-with-dots" transform="translate(-504 -609)" clip-path="url(#clip-path)">
+    <g id="wave-bottom-with-dots-2" data-name="wave-bottom-with-dots" transform="translate(504 601)">
+      <path id="Path_1" data-name="Path 1" d="M0,58.9c0-.9,5.1-2,5.8-2.2,6-.8,11.8,2.2,17.2,4.6,4.5,2.1,8.6,5.3,13.3,7.1C48.2,73.3,61,73.8,73,69c43-16.9,40-7.9,84-2.2s83-31.5,143-10.1v69.8H0Z" transform="translate(0 -6)" fill="#3498db" opacity="0.6"/>
+      <path id="Path_2" data-name="Path 2" d="M300,68.5v58H0v-58s43-16.7,82,5.6c12.4,7.1,26.5,9.6,40.2,5.9a62.738,62.738,0,0,0,20.9-11c6.2-4.7,12-10.4,18.8-13.8,7.3-3.8,15.6-5.2,23.6-5.2,16.1.1,30.7,8.2,45,16.1,13.4,7.4,28.1,12.2,43.3,11.2C282.5,76.7,292.7,74.4,300,68.5Z" transform="translate(0 -10)" fill="#3498db"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(21.2 11.718)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="8.947" cy="8.947" r="8.947" transform="translate(241.512 2.753)" fill="#de4437"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.85" cy="5.85" r="5.85" transform="translate(265.6 18.582)" fill="#3498db"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="3.785" cy="3.785" r="3.785" transform="translate(266.288)" fill="#00c9a7"/>
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="1.376" cy="1.376" r="1.376" transform="translate(230.5 22.024)" fill="#ffc107"/>
+      </g>
+    </g>
+  </g>
+</svg>
